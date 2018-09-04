@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
+	background-color: rgba(0,0,0,0.9);
 }
 
 #navbar{
@@ -56,6 +57,7 @@ body{
 	flex: 35%;
 	min-height: 100px;
 	background-color: #303030;
+	font-family: 'Yrsa', serif;
 }
 
 #content3{
@@ -63,11 +65,12 @@ body{
 	min-height: 100px;
 	background-color: #353535;
 	font-family: 'Yrsa', serif;
+	background-image: url(images/backg.jpg);
 }
 
 footer{
 	background-color: #000;
-	color: #95ff0c;
+	color: #eee;
 	padding: 10px;
 	text-align: center;
 	font-size: 20px;
@@ -75,6 +78,15 @@ footer{
 	user-select: none;
 }
 
+footer a{
+	text-decoration: none;
+	color: #abff01;
+	font-size: 20px;
+}
+
+footer a:hover{
+	color: #ff7001;
+}
 #gallery{
 	width: 75vw;
 	margin-top: 2.5vw;
@@ -88,16 +100,19 @@ footer{
 
 .respImg{
 	margin: 1vw;
-	width: 100%;
+	width: 99%;
     height: auto;
-	max-width: 23vw;
-	border-radius: 1px; 
+	max-width: 22vw;
+	max-height: 12vw;
+	border-radius: 3px; 
+	border: 0.1vw solid #303030;
 }
 
 .respImg:hover{
-	opacity: 0.8;
+	opacity: 0.75;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
+	border: 0.1vw solid #abff01;
 }
 
 .lightbox{
@@ -108,7 +123,7 @@ footer{
 	max-width: 100vw;
 	height: 100vh;
 	top: 0;
-	background: rgba(0,0,0,0.85);
+	background: rgba(0,0,0,0.9);
 }
 
 .lightbox:target{
@@ -117,8 +132,19 @@ footer{
 }	
 
 .lightbox img{
-	max-width: 75vw;
+	max-width: 65vw;
+	max-height: 80vh;
 	height: auto;
 	width: 100%;
-	margin: 7vw 12.5vw auto 12.5vw;
+	margin: 3vw 17.5vw auto 17.5vw;
+}
+	
+#about{
+	width: 75vw;
+	margin: 2vw 12.5vw 2vw 12.5vw;
+	font-size: 21px;
+	color: #eee;
+	text-align: justify;
+	line-height: 1.5;
+	text-shadow: 0 0 2px #01c0ff;
 }	

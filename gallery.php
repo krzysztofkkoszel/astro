@@ -1,36 +1,18 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
 
 <head>
-	
 	<title>Kosmiczny Mechanik</title>
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=latin-ext" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Yrsa:300&amp;subset=latin-ext" rel="stylesheet"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-	<meta name="description" content="Kosmiczny Mechanik-Podstawy astrofotografii-teoria i niezbędny sprzęt"/>
-		
+	<?php include 'head.php';?>
 </head>
 
 <body>
+	<?php include 'nav.php';?>
 	
-	<nav id="navbar">
-		<a href="index.html">Strona główna</a>
-		<a href="exposure.html">Ekspozycja</a>
-		<a href="gear.html">Sprzęt</a>
-		<a href="weather.html">Warunki</a>
-		<a href="gallery.html">Galeria</a>
-		<a href="author.html">Autor</a>
-	</nav>
-
-	<header id="banner">
-		<img src="images/logo.jpg"/>
-	</header>
-
 	<div id="container">
 	
 		<main id="content3">	
-			<div id="gallery">			
+			<div class="gallery">			
 				<a href="#img1" id="back1"><img class="respImg" src="images/gal1.jpg"/></a>
 				<a href="#img2" id="back2"><img class="respImg" src="images/gal2.jpg"/></a>
 				<a href="#img3" id="back3"><img class="respImg" src="images/gal3.jpg"/></a>
@@ -57,10 +39,7 @@
 	
 	</div>
 	
-	<footer>
-		2018 &copy; Krzysztof Koszel-Wszelkie prawa zastrzeżone
-	</footer>
-	
+	<?php include 'footer.php';?>
 </body>
 
 </html>
